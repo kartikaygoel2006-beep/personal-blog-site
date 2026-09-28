@@ -2,15 +2,17 @@
 
 Personal blog built with SvelteKit and Sanity CMS.
 
-![preview-1](https://cdn.sanity.io/images/81pocpw8/production/70adf22788618147eb2749bb23f47b611602194d-1442x744.jpg?w=1442&q=75&fit=clip&auto=format)
+![preview-1](/static/img/thumbnails/preview-1.jpg)
 
-![preview-2](https://cdn.sanity.io/images/81pocpw8/production/d537d3685e66acbb7648b908ff879a814121a839-1423x781.jpg?w=1423&h=781&fit=clip&auto=format)
+![preview-2](/static/img/thumbnails/preview-2.jpg)
 
 ## ℹ️ Note
 
 > This project was originally written by me over ~5 months under my previous usernames (`atpyrix`, `pyrix`, `NotYasho`). I deleted that GitHub account in 2025 (at that time, the repo for this project had ~100 stars) and lost my local copies. This repo was restored from [a public fork](https://github.com/thepiratehub/pyrix-blog-). Original commit history isn't preserved here. Authorship can be verified in the fork.
 
 > The original deployment on Netlify and its Sanity project are inaccessible to me, so the live site is frozen and I can't publish to it. The code here is self-contained.
+
+> As of now, I no longer maintain this code.
 
 
 
