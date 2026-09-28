@@ -40,7 +40,7 @@ Personal blog built with SvelteKit and Sanity CMS.
 ## Structure
 
 ```
-src/                    Frontend
+src/
 ├── lib
 ├── routes
 │   ├── about
@@ -52,7 +52,7 @@ src/                    Frontend
 │   ├── contact
 │   └── sitemap.xml
 └── styles
-studio/                 Sanity Studio (schemas: blog, category)
+studio/
 ```
 
 
@@ -65,11 +65,14 @@ studio/                 Sanity Studio (schemas: blog, category)
 
 ## Tech stack
 
+| Layer | Tech |
+|---|---|
+| Framework | SvelteKit|
+| Styling | SCSS |
+| CMS | Sanity v3 |
+| Icons | Iconify |
+| Hosting | Netlify |
 
-[![SvelteKit](https://img.shields.io/badge/-SvelteKit-black?style=for-the-badge&logo=svelte&color=orangered&logoColor=white)](https://kit.svelte.dev/)
-[![SASS](https://img.shields.io/badge/-SASS-black?style=for-the-badge&logo=sass&color=cc6699&logoColor=white)](https://sass-lang.com/)
-[![Netlify](https://img.shields.io/badge/-Netlify-black?style=for-the-badge&logo=netlify&color=262626&logoColor=b)](https://www.netlify.com/)
-[![Sanity](https://img.shields.io/badge/-Sanity.io-black?style=for-the-badge&logo=sanity&color=orange&logoColor=white)](https://www.sanity.io/)
 
 
 
