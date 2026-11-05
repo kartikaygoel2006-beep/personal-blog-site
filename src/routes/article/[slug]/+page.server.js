@@ -1,3 +1,4 @@
+import { error } from '@sveltejs/kit';
 import client from '$lib/blogs/sanityClient';
 
 export async function load({ params }) {
@@ -21,8 +22,5 @@ export async function load({ params }) {
       blogs: data
     };
   }
-  return {
-    status: 500,
-    body: new Error("Internal Server Error")
-  };
+  throw error(404, 'Post not found');
 }

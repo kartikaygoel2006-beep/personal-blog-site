@@ -1,3 +1,4 @@
+import { error } from '@sveltejs/kit';
 import client from '$lib/blogs/sanityClient.js';
 import { daysAgo, estimateReadTime } from '$lib/blogs/utils.js';
 export async function load({ params }) {
@@ -11,6 +12,7 @@ export async function load({ params }) {
 		}
 	}
 	`);
+	if (!category) throw error(404, 'Category not found');
 	const blogs = await client.fetch(`*[_type == "blog" && category._ref=="${category._id}"] {
 		title,
 		description,

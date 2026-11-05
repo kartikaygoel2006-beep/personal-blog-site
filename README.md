@@ -1,25 +1,15 @@
-# Personal Blog
+# Kartikay Goel – Portfolio & Blog
 
-Personal blog built with SvelteKit and Sanity CMS.
+My personal portfolio and blog, built with SvelteKit and Sanity CMS.
 
-![preview-1](/static/img/thumbnails/preview-1.jpg)
+**Live site:** https://blogout.netlify.app
 
-![preview-2](/static/img/thumbnails/preview-2.jpg)
-
-## ℹ️ Note
-
-> This project was originally written by me over ~5 months under my previous usernames (`atpyrix`, `pyrix`, `NotYasho`). I deleted that GitHub account in 2025 (at that time, the repo for this project had ~100 stars) and lost my local copies. This repo was restored from [a public fork](https://github.com/thepiratehub/pyrix-blog-). Original commit history isn't preserved here. Authorship can be verified in the fork.
-
-> The original deployment on Netlify and its Sanity project are inaccessible to me, so the live site is frozen and I can't publish to it. The code here is self-contained.
-
-> As of now, I no longer maintain this code.
-
-
+![Preview](static/img/thumbnails/portfolio.png)
 
 ## Features
 
 
-- **Responsive layout**: sidebar nav on desktop, bottom tab bar on mobile, auto-hiding header. For the UI itself, I took inspiration from many other sites to come up with this.
+- **Responsive layout**: sidebar nav on desktop, bottom tab bar on mobile, auto-hiding header. 
 
 - **Featured post** on the blog home + a 'latest-posts' grid and a "browse categories" strip
 
@@ -73,17 +63,14 @@ studio/
 | Icons | Iconify |
 | Hosting | Netlify |
 
+## Blog posts
 
+Posts are loaded from a Sanity project. Set `PUBLIC_SANITY_PROJECT_ID` in Netlify (Project configuration → Environment variables) to show posts; until then the blog page says there are no posts yet. The editor in `studio/` reads the same ID from `SANITY_STUDIO_PROJECT_ID`.
 
+## Credits
+
+Forked from [nanohills/personal-blog-site](https://github.com/nanohills/personal-blog-site).
 
 ## License
 
-
 [MPL 2.0](LICENSE)
-
-
-<p align="center">
-  <a href="https://notyasho.netlify.app/blogs">
-    <img src="https://user-images.githubusercontent.com/90166733/229889532-31b3f627-d0b8-4194-bd91-48293c667793.png" alt="image">
-  </a>
-</p>

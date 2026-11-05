@@ -1,35 +1,18 @@
 <main>
 	<h1>ABOUT</h1>
 	<hr />
-	<img
-		src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzc4NWMzMjRhYWQzOTNiOTE2ZGYzOTc5ZGVlZDhmOTIxYjM2NGI2MCZjdD1n/ASd0Ukj0y3qMM/giphy.gif"
-		alt="goodbye"
-	/>
-	<p>'Sup?</p>
-	<p />
+	<img src="/img/favicon/logo-rounded.png" alt="KG logo" width="150" height="150" />
+	<p>Hey there!</p>
 	<p>
-		Hi, I'm Yasho! I'm a 17 y/o guy from India. My interests include reading books, singing, and music of course. I wanna get into data visualisation, hacking and scientific research (big dreams ik). I started coding back in 2020. This blog was supposed to be an online diary or something, but I never really got the time to write anything as I'm quite busy with school currently, and it's tough to manage both. Which is why, nearly all of the articles here are merely placeholders for actual content. Don't worry though, I'll get back here ASAP<s>
-	</p>
-        <p>
-                I publish the articles from a CMS <a href="sanity.io">Sanity</a>. Honestly there's a lot of work left to do on this site, so it's quite janky at times. And now that I look back, some of the elements here really cringe me out lmao
-        </p>
-	<p>
-		With all the AI stuff going on currently, I'm quite pessimistic about the future of devs lol. However, I still love coding and when I'm back, I'm planning to get into Android app development with the MDY guidelines and want to do more privacy-friendly FOSS projects in the future.
-		<br />
-		<br />
-                   
+		I'm Kartikay Goel, a computer science student who likes learning by building things. This site is my little corner of
+		the internet, where I'll share the projects I work on and notes on what I'm learning along the way.
 	</p>
 	<p>
-		Anyway, I just wanted to say Hi and let you know what's going on.
+		It's still a work in progress, so expect a few rough edges while I fill it in. If you'd like to say hi, drop a message on
+		the <a href="/contact">contact page</a>.
 	</p>
-	<p>Until we meet again 👋</p>
-	<p>
-		Best regards, <br />
-		<s>probablynot</s>yasho 
-
-               <br/>
-                <span><i>Last updated: March 26, 2024</i></span>
-	</p>
+	<p>Thanks for stopping by 👋</p>
+	<p>— Kartikay</p>
 </main>
 
 <style lang="scss">

@@ -12,7 +12,7 @@
 	<meta name="title" content="About | Kartikay Goel" />
 	<meta
 		name="description"
-        content="About page - Kartikay Goel. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
+        content="About Kartikay Goel, a computer science student sharing projects and notes on what he's learning."
 	/>
 
 	<!-- Open Graph / Facebook -->
@@ -21,7 +21,7 @@
 	<meta property="og:title" content="About | Kartikay Goel" />
 	<meta
 		property="og:description"
-		content="About page - Kartikay Goel. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
+		content="About Kartikay Goel, a computer science student sharing projects and notes on what he's learning."
 	/>
 
 	<!-- Twitter -->
@@ -29,7 +29,7 @@
 	<meta property="twitter:title" content="About | Kartikay Goel" />
 	<meta
 		property="twitter:description"
-		content="About page - Kartikay Goel. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
+		content="About Kartikay Goel, a computer science student sharing projects and notes on what he's learning."
 	/>
 </svelte:head>
 

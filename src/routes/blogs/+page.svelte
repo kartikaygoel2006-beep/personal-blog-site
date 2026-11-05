@@ -24,22 +24,51 @@
 	});
 </script>
 
-<section class="featured">
-	<FeaturedCarrousel posts={featuredPosts} />
-</section>
+{#if data.blogs.length === 0}
+	<section class="empty">
+		<h2>No posts yet</h2>
+		<p>I haven't published anything here yet. Check back soon!</p>
+	</section>
+{:else}
+	<section class="featured">
+		<FeaturedCarrousel posts={featuredPosts} />
+	</section>
 
-<section class="categories">
-	<h2 class="highlight" id="categories-browse">Browse categories</h2>
-	<a href="/blogs/explore">View all</a>
-	<CategoriesGrid categories={data.categories} />
-</section>
+	{#if data.categories.length}
+		<section class="categories">
+			<h2 class="highlight" id="categories-browse">Browse categories</h2>
+			<a href="/blogs/explore">View all</a>
+			<CategoriesGrid categories={data.categories} />
+		</section>
+	{/if}
 
-<section class="latest">
-	<h2 id="latest-articles" class="highlight">Latest Posts</h2>
-	<PostGrid posts={latestPosts} />
-</section>
+	<section class="latest">
+		<h2 id="latest-articles" class="highlight">Latest Posts</h2>
+		<PostGrid posts={latestPosts} />
+	</section>
+{/if}
 
 <style lang="scss">
+	.empty {
+		min-height: 50vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		gap: 1rem;
+
+		h2 {
+			font-size: 1.6rem;
+			color: $clr-fg-2;
+			font-weight: 600;
+		}
+
+		p {
+			opacity: 0.8;
+		}
+	}
+
 	.categories {
 		position: relative;
 		width: 100%;
