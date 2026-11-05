@@ -57,7 +57,7 @@
 					</div>
 					<div class="right">
 						<div class="half-container">
-							<span id="author-name">NotYasho</span>
+							<span id="author-name">Kartikay Goel</span>
 						</div>
 						<div class="half-container">
 							<span id="date-published">{post.daysAgo}</span>

@@ -1,6 +1,6 @@
 import client from '$lib/blogs/sanityClient';
 
-const siteUrl = 'https://notyasho.netlify.app/'
+const siteUrl = 'https://blogout.netlify.app/'
 
 async function getPostsData() {
 	const blogs = await client.fetch(`*[_type == "blog"]`)

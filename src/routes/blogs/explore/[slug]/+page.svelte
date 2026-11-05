@@ -19,14 +19,14 @@
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://notyasho.netlify.app/explore/{data.category}" />
+	<meta property="og:url" content="https://blogout.netlify.app/explore/{data.category}" />
 	<meta property="og:title" content="Explore {data.category.name} articles" />
 	<meta property="og:description" content="Articles related to {data.category.name}Explore categories of all sorts." />
 	<meta property="og:image" content={data.category.image.asset.url + '?fm=webp&w=256'} />
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://notyasho.netlify.app/explore/{data.category}" />
+	<meta property="twitter:url" content="https://blogout.netlify.app/explore/{data.category}" />
 	<meta property="twitter:title" content="Explore {data.category.name} articles" />
 	<meta property="twitter:description" content="Articles related to {data.category.name}. Explore categories of all sorts." />
 	<meta property="twitter:image" content={data.category.image.asset.url + '?fm=webp&w=256'} />

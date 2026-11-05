@@ -12,7 +12,7 @@
 
 			<h1>{$page.status} - {$page.error.message} <span>x(</span></h1>
 			<p>
-				There was an error with the page. Please check the URL or <a href="https://github.com/NotYasho/Personal-Blog-Portfolio/issues/new" target="_"
+				There was an error with the page. Please check the URL or <a href="https://github.com/kartikaygoel2006-beep/personal-blog-site/issues/new" target="_"
 					><strong>report a bug</strong></a
 				>
 			</p>

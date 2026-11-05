@@ -8,28 +8,28 @@
 
 <svelte:head>
 	<!-- Primary Meta Tags -->
-	<title>About | NotYasho</title>
-	<meta name="title" content="About | NotYasho" />
+	<title>About | Kartikay Goel</title>
+	<meta name="title" content="About | Kartikay Goel" />
 	<meta
 		name="description"
-        content="About page - NotYasho. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
+        content="About page - Kartikay Goel. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
 	/>
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://notyasho.netlify.app/about" />
-	<meta property="og:title" content="About | NotYasho" />
+	<meta property="og:url" content="https://blogout.netlify.app/about" />
+	<meta property="og:title" content="About | Kartikay Goel" />
 	<meta
 		property="og:description"
-		content="About page - NotYasho. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
+		content="About page - Kartikay Goel. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
 	/>
 
 	<!-- Twitter -->
-	<meta property="twitter:url" content="https://notyasho.netlify.app/about" />
-	<meta property="twitter:title" content="About | NotYasho" />
+	<meta property="twitter:url" content="https://blogout.netlify.app/about" />
+	<meta property="twitter:title" content="About | Kartikay Goel" />
 	<meta
 		property="twitter:description"
-		content="About page - NotYasho. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
+		content="About page - Kartikay Goel. I'm a developer/designer who loves to code. This is my personal website where I post my projects and blogs."
 	/>
 </svelte:head>
 

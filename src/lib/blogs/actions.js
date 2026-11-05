@@ -30,14 +30,14 @@ export function share(slug, title) {
 	if (navigator.share) {
 		navigator.share({
 			title: title,
-			url: `https://notyasho.netlify.app/article/${slug}`
+			url: `https://blogout.netlify.app/article/${slug}`
 		});
 		return;
 	}
 
 	message.set('Link copied');
 	description.set('Copied link to the clipboard.');
-	const currentUrl = `${title}\n\nhttps://notyasho.netlify.app/article/${slug}`;
+	const currentUrl = `${title}\n\nhttps://blogout.netlify.app/article/${slug}`;
 	navigator.clipboard.writeText(currentUrl);
 	showToast.set(true);
 	setTimeout(() => showToast.set(false), 2000);
