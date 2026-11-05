@@ -65,7 +65,7 @@ studio/
 
 ## Blog posts
 
-Posts are loaded from a Sanity project. Set `PUBLIC_SANITY_PROJECT_ID` in Netlify (Project configuration → Environment variables) to show posts; until then the blog page says there are no posts yet. The editor in `studio/` reads the same ID from `SANITY_STUDIO_PROJECT_ID`.
+Posts are loaded from a Sanity project: by default the original project this site was forked with. Set `PUBLIC_SANITY_PROJECT_ID` in Netlify (Project configuration → Environment variables) to use your own instead. The editor in `studio/` reads the same ID from `SANITY_STUDIO_PROJECT_ID`.
 
 ## Credits
 
